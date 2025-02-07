@@ -119,7 +119,9 @@ This may incur additional costs and increase complexity in network configuration
 ### API Service Configuration
 We would need to ensure the API is stateless to allow easy scaling of the service across both clusters. Also, it would be advisable to implement caching and queueing mechanisms to avoid duplicity and inconsistency on the data.
 
-## Architecture diagram udpate
+---
+
+## Architecture diagram update
 Here you can find an architecture diagram with the proposed updates based on the responses given throughout this challenge.
 
 ![Upgrade](images/architecture_upgrade.png)
